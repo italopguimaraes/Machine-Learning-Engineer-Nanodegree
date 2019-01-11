@@ -1,6 +1,3 @@
-DESCRIÇÃO:
-O Objetivo desse projeto é treinar um quadricóptero para ensina-lo a voar, usando aprendizagem por reforço(Q-learning)
-
 # Deep RL Quadcopter Controller
 
 *Teach a Quadcopter How to Fly!*
