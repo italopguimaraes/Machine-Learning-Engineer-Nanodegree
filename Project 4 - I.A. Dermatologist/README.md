@@ -51,7 +51,7 @@ mkdir train; mkdir valid; mkdir test
 
 8. Run the `IA_dermatologist.ipynb` notebook and follow all steps.
 
-9. If you are interested in the results obtained by the project in more detail, see [Final project report](documents/Relatório_projeto_final.pdf)
+9. If you are interested in the results obtained by the project in more detail, see [Final Project Report](documents/Relatório_projeto_final.pdf)
 
 If you would like to read more about some of the algorithms that were successful in this competition, please read [this article](https://arxiv.org/pdf/1710.05006.pdf) that discusses some of the best approaches.  A few of the corresponding research papers appear below.
 - Matsunaga K, Hamada A, Minagawa A, Koga H. [“Image Classification of Melanoma, Nevus and Seborrheic Keratosis by Deep Neural Network Ensemble”](https://arxiv.org/ftp/arxiv/papers/1703/1703.03108.pdf). International Skin Imaging Collaboration (ISIC) 2017 Challenge at the International Symposium on Biomedical Imaging (ISBI). 
@@ -92,20 +92,20 @@ The top scores in this category (from the ISIC competition) can be found in the 
 
 ## Getting your Results
 
-Once you have trained your model, create a CSV file to store your test predictions.  Your file should have exactly 600 rows, each corresponding to a different test image, **plus** a header row.  You can find an example submission file (`sample_submission.csv`) in the repository.
+The [**sample_predictions**](sample_predictions.csv) file stores the test predictions, each row corresponds to a different test image, in addition to a header row.
 
-Your file should have exactly 3 columns:
+The file has exactly 3 columns:
 - `Id` - the file names of the test images (in the **same** order as the sample submission file)
 - `task_1` - the model's predicted probability that the image (at the path in `Id`) depicts melanoma
 - `task_2` - the model's predicted probability that the image (at the path in `Id`) depicts seborrheic keratosis
 
-Once the CSV file is obtained, you will use the `get_results.py` file to score your submission.  To set up the environment to run this file, you need to create (and activate) an environment with Python 3.5 and a few pip-installable packages:
+To set up the environment to run this file, you need to create (and activate) an environment with Python 3.5 and a few pip-installable packages:
 ```text
 conda create --name derm-ai python=3.5
 source activate derm-ai
 pip install -r requirements.txt
 ```
-
+The `get_results.py` script will be used to evaluate your submission.
 Once you have set up the environment, run the following command to see how the sample submission performed:
 ```text
 python get_results.py sample_predictions.csv
@@ -127,5 +127,10 @@ The code for generating the confusion matrix assumes that the threshold for clas
 ```text
 python get_results.py sample_predictions.csv 0.4
 ```
+## license
+ 
+For more information see:
+
+[license](LICENSE.txt)
 
 To test **your own** submission, change the code to instead include the path to **your** CSV file.
