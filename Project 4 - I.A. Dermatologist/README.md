@@ -16,6 +16,8 @@ The data and objective are pulled from the [2017 ISIC Challenge on Skin Lesion A
 
 ![Skin Disease Classes][image1]
 
+If you are interested, check out the original repository for the challenge: [dermatologist-ai](https://github.com/udacity/dermatologist-ai).
+
 ## Software dependencies
 
 Make sure the `sklearn`, `keras`, `opencv-python`, `numpy`, `matplotlib`, `pandas`, `tensorflow` and `jupyter notebook` are installed:
@@ -49,26 +51,20 @@ mkdir train; mkdir valid; mkdir test
 
 8. Run the `IA_dermatologist.ipynb` notebook and follow all steps.
 
-## Create a Model
-
-Use the training and validation data to train a model that can distinguish between the three different image classes.  (_After training, you will use the test images to gauge the performance of your model._)
+9. If you are interested in the results obtained by the project in more detail, see [Final project report](documents/Final project report.pdf)
 
 If you would like to read more about some of the algorithms that were successful in this competition, please read [this article](https://arxiv.org/pdf/1710.05006.pdf) that discusses some of the best approaches.  A few of the corresponding research papers appear below.
 - Matsunaga K, Hamada A, Minagawa A, Koga H. [“Image Classification of Melanoma, Nevus and Seborrheic Keratosis by Deep Neural Network Ensemble”](https://arxiv.org/ftp/arxiv/papers/1703/1703.03108.pdf). International Skin Imaging Collaboration (ISIC) 2017 Challenge at the International Symposium on Biomedical Imaging (ISBI). 
 - Daz IG. [“Incorporating the Knowledge of Dermatologists to Convolutional Neural Networks for the Diagnosis of Skin Lesions”](https://arxiv.org/pdf/1703.01976.pdf). International Skin Imaging Collaboration (ISIC) 2017 Challenge at the International Symposium on Biomedical Imaging (ISBI). ([**github**](https://github.com/igondia/matconvnet-dermoscopy))
 - Menegola A, Tavares J, Fornaciali M, Li LT, Avila S, Valle E. [“RECOD Titans at ISIC Challenge 2017”](https://arxiv.org/abs/1703.04819). International Skin Imaging Collaboration (ISIC)  2017 Challenge at the International Symposium on Biomedical Imaging (ISBI). ([**github**](https://github.com/learningtitans/isbi2017-part3))
 
-While the original challenge provided additional data (such as the gender and age of the patients), we only provide the image data to you.  If you would like to download this additional patient data, you may do so at the competition [website](https://challenge.kitware.com/#phase/5840f53ccad3a51cc66c8dab).
-
-All three of the above teams increased the number of images in the training set with additional data sources.  If you'd like to expand your training set, you are encouraged to begin with the [ISIC Archive](https://isic-archive.com/#images).
-
 ## Evaluation
 
-Inspired by the ISIC challenge, your algorithm will be ranked according to three separate categories.
+Inspired by the ISIC challenge, the algorithm was evaluated according to three separate categories.
 
 #### Category 1: ROC AUC for Melanoma Classification
 
-In the first category, we will gauge the ability of your CNN to distinguish between malignant melanoma and the benign skin lesions (nevus, seborrheic keratosis) by calculating the area under the receiver operating characteristic curve ([ROC AUC](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html)) corresponding to this binary classification task.
+In the first category, CNN's ability to distinguish between malignant melanoma and benign cutaneous lesions (nevus, seborrheic keratosis) was calculated by calculating the area under the receiver operating characteristic curve ([ROC AUC](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html)) corresponding to this binary classification task.
 
 If you are unfamiliar with ROC (Receiver Operating Characteristic) curves and would like to learn more, you can check out the documentation in [scikit-learn](http://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html#sphx-glr-auto-examples-model-selection-plot-roc-py) or read [this Wikipedia article](https://en.wikipedia.org/wiki/Receiver_operating_characteristic).
 
@@ -80,7 +76,7 @@ The top scores (from the ISIC competition) in this category can be found in the 
 
 All of the skin lesions that we will examine are caused by abnormal growth of either [melanocytes](https://en.wikipedia.org/wiki/Melanocyte) or [keratinocytes](https://en.wikipedia.org/wiki/Keratinocyte), which are two different types of epidermal skin cells.  Melanomas and nevi are derived from melanocytes, whereas seborrheic keratoses are derived from keratinocytes. 
 
-In the second category, we will test the ability of your CNN to distinuish between melanocytic and keratinocytic skin lesions by calculating the area under the receiver operating characteristic curve ([ROC AUC](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html)) corresponding to this binary classification task.
+In the second category, the ability of CNN to distinguish between melanocytic and keratinocytic skin lesions was calculated by calculating the area under the ROC curve ([ROC AUC](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html)) corresponding to this binary classification task.
 
 The top scores in this category (from the ISIC competition) can be found in the image below.
 
@@ -88,7 +84,7 @@ The top scores in this category (from the ISIC competition) can be found in the 
 
 #### Category 3: Mean ROC AUC
 
-In the third category, we will take the average of the ROC AUC values from the first two categories.
+In the third category, the mean ROC AUC values of the first two categories were calculated.
 
 The top scores in this category (from the ISIC competition) can be found in the image below.
 
