@@ -132,5 +132,3 @@ python get_results.py sample_predictions.csv 0.4
 For more information see:
 
 [license](LICENSE.txt)
-
-To test **your own** submission, change the code to instead include the path to **your** CSV file.
