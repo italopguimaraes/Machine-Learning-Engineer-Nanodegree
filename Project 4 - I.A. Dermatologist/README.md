@@ -51,7 +51,7 @@ mkdir train; mkdir valid; mkdir test
 
 8. Run the `IA_dermatologist.ipynb` notebook and follow all steps.
 
-9. If you are interested in the results obtained by the project in more detail, see [Final project report](documents/Proposta.pdf)
+9. If you are interested in the results obtained by the project in more detail, see [Final project report](documents/Relatório_projeto_final.pdf)
 
 If you would like to read more about some of the algorithms that were successful in this competition, please read [this article](https://arxiv.org/pdf/1710.05006.pdf) that discusses some of the best approaches.  A few of the corresponding research papers appear below.
 - Matsunaga K, Hamada A, Minagawa A, Koga H. [“Image Classification of Melanoma, Nevus and Seborrheic Keratosis by Deep Neural Network Ensemble”](https://arxiv.org/ftp/arxiv/papers/1703/1703.03108.pdf). International Skin Imaging Collaboration (ISIC) 2017 Challenge at the International Symposium on Biomedical Imaging (ISBI). 
