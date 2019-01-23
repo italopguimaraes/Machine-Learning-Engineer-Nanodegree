@@ -1,5 +1,3 @@
-﻿DESCRIÇÃO:
-[//]: # (Image References)
 
 [image1]: ./images/skin_disease_classes.png "Skin Disease Classes"
 [image2]: ./images/cat_1.jpeg "Category 1 Rankings"
