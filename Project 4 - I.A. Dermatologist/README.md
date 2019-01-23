@@ -10,32 +10,44 @@
 
 ## Introduction
 
-In this mini project, you will design an algorithm that can visually diagnose [melanoma](http://www.skincancer.org/skin-cancer-information/melanoma), the deadliest form of skin cancer.  In particular, your algorithm will distinguish this malignant skin tumor from two types of benign lesions ([nevi](http://missinglink.ucsf.edu/lm/dermatologyglossary/nevus.html) and [seborrheic keratoses](https://www.aad.org/public/diseases/bumps-and-growths/seborrheic-keratoses)). 
+In this project, a Convolutional Neural Network (CNN) was developed capable of visually diagnosing [melanoma](http://www.skincancer.org/skin-cancer-information/melanoma), the deadliest form of skin cancer. In particular, the algorithm is able to distinguish this malignant tumor and two types of benign skin lesions ([nevi](http://missinglink.ucsf.edu/lm/dermatologyglossary/nevus.html) and [seborrheic keratoses](https://www.aad.org/public/diseases/bumps-and-growths/seborrheic-keratoses)).
 
 The data and objective are pulled from the [2017 ISIC Challenge on Skin Lesion Analysis Towards Melanoma Detection](https://challenge.kitware.com/#challenge/583f126bcad3a51cc66c8d9a).  As part of the challenge, participants were tasked to design an algorithm to diagnose skin lesion images as one of three different skin diseases (melanoma, nevus, or seborrheic keratosis).  In this project, you will create a model to generate your own predictions.
 
 ![Skin Disease Classes][image1]
 
+## Software dependencies
+
+Make sure the `sklearn`, `keras`, `opencv-python`, `numpy`, `matplotlib`, `pandas`, `tensorflow` and `jupyter notebook` are installed:
+
+`conda install sklearn keras opencv-python numpy matplotlib pandas tensorflow jupyter notebook`
+
+For more information see: 
+
+[requirements](requirements.txt)
+
 ## Getting Started
 
-1. Clone the [repository](https://github.com/udacity/dermatologist-ai) and create a `data/` folder to hold the dataset of skin images.  
+1. Clone the [repository](https://github.com/Italo-Pereira-Guimaraes/Machine-Learning-Engineer-Nanodegree) and enter the `Project 4 - I.A. Dermatologist/` directory.   
 ```text
-git clone https://github.com/udacity/dermatologist-ai.git
-mkdir data; cd data
+git clone https://github.com/Italo-Pereira-Guimaraes/Machine-Learning-Engineer-Nanodegree
+cd Project 4 - I.A. Dermatologist
 ```
-2. Create folders to hold the training, validation, and test images.
+2. Download and unzip the data.
 ```text
 mkdir train; mkdir valid; mkdir test
 ```
-3. Download and unzip the [training data](https://s3-us-west-1.amazonaws.com/udacity-dlnfd/datasets/skin-cancer/train.zip) (5.3 GB).
+3. Download and unzip the [DataSet 1](https://drive.google.com/file/d/1BXf3O-C1ge6q33SEQNsFCzEDSSwSs5_p/view?usp=sharing) (5.10 GB).
 
-4. Download and unzip the [validation data](https://s3-us-west-1.amazonaws.com/udacity-dlnfd/datasets/skin-cancer/valid.zip) (824.5 MB).
+4. Download and unzip the [DataSet 2](https://drive.google.com/file/d/1hr0mWJV-h4z56hbEOKNgsUWGPSoddXLU/view?usp=sharing) (6.48 GB).
 
-5. Download and unzip the [test data](https://s3-us-west-1.amazonaws.com/udacity-dlnfd/datasets/skin-cancer/test.zip) (5.1 GB).
+5. Download and unzip the [Bottleneck Features](https://drive.google.com/file/d/1AbnTSVX9BLW6BisEKGFlc6nPwGGTdkQX/view?usp=sharing) (872 MB).
 
-6. Place the training, validation, and test images in the `data/` folder, at `data/train/`, `data/valid/`, and `data/test/`, respectively.  Each folder should contain three sub-folders (`melanoma/`, `nevus/`, `seborrheic_keratosis/`), each containing representative images from one of the three image classes.
+6. Download and unzip the [Saved Models](https://drive.google.com/file/d/1HRbB2UG_PO5hgorIpL8X2Wo4OEdiK1xO/view?usp=sharing) (230 MB).
 
-You are free to use any coding environment of your choice to solve this mini project!  In order to rank your results, you need only use a pipeline that culminates in a CSV file containing your test predictions.
+7. Place the previously unpacked folders in the `Project 4 - I.A. Dermatologist / ` directory.
+
+8. Run the `IA_dermatologist.ipynb` notebook and follow all steps.
 
 ## Create a Model
 
