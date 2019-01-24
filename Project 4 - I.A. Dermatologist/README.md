@@ -30,28 +30,25 @@ For more information see:
 
 ## Getting Started
 
-1. Clone the [repository](https://github.com/Italo-Pereira-Guimaraes/Machine-Learning-Engineer-Nanodegree) and enter the `Project 4 - I.A. Dermatologist/` directory.   
+1. Download and unzip the data, clone the [repository](https://github.com/Italo-Pereira-Guimaraes/Machine-Learning-Engineer-Nanodegree) and enter the `Project 4 - I.A Dermatologist/` directory.   
 ```text
 git clone https://github.com/Italo-Pereira-Guimaraes/Machine-Learning-Engineer-Nanodegree
 cd Project 4 - I.A. Dermatologist
 ```
-2. Download and unzip the data.
-```text
-mkdir train; mkdir valid; mkdir test
-```
-3. Download and unzip the [DataSet 1](https://drive.google.com/file/d/1BXf3O-C1ge6q33SEQNsFCzEDSSwSs5_p/view?usp=sharing) (5.10 GB).
 
-4. Download and unzip the [DataSet 2](https://drive.google.com/file/d/1hr0mWJV-h4z56hbEOKNgsUWGPSoddXLU/view?usp=sharing) (6.48 GB).
+2. Download and unzip the [DataSet 1](https://drive.google.com/file/d/1BXf3O-C1ge6q33SEQNsFCzEDSSwSs5_p/view?usp=sharing) (5.10 GB).
 
-5. Download and unzip the [Bottleneck Features](https://drive.google.com/file/d/1AbnTSVX9BLW6BisEKGFlc6nPwGGTdkQX/view?usp=sharing) (872 MB).
+3. Download and unzip the [DataSet 2](https://drive.google.com/file/d/1hr0mWJV-h4z56hbEOKNgsUWGPSoddXLU/view?usp=sharing) (6.48 GB).
 
-6. Download and unzip the [Saved Models](https://drive.google.com/file/d/1HRbB2UG_PO5hgorIpL8X2Wo4OEdiK1xO/view?usp=sharing) (230 MB).
+4. Download and unzip the [Bottleneck Features](https://drive.google.com/file/d/1AbnTSVX9BLW6BisEKGFlc6nPwGGTdkQX/view?usp=sharing) (872 MB).
 
-7. Place the previously unpacked folders in the `Project 4 - I.A. Dermatologist / ` directory.
+5. Download and unzip the [Saved Models](https://drive.google.com/file/d/1HRbB2UG_PO5hgorIpL8X2Wo4OEdiK1xO/view?usp=sharing) (230 MB).
 
-8. Run the `IA_dermatologist.ipynb` notebook and follow all steps.
+6. Place the previously unpacked folders in the `Project 4 - I.A. Dermatologist / ` directory.
 
-9. If you are interested in the results obtained by the project in more detail, see [Final Project Report](documents/Relatório_projeto_final.pdf)
+7. Run the `IA_dermatologist.ipynb` notebook and follow all steps.
+
+8. If you are interested in the results obtained by the project in more detail, see [Final Project Report](documents/Relatório_projeto_final.pdf)
 
 If you would like to read more about some of the algorithms that were successful in this competition, please read [this article](https://arxiv.org/pdf/1710.05006.pdf) that discusses some of the best approaches.  A few of the corresponding research papers appear below.
 - Matsunaga K, Hamada A, Minagawa A, Koga H. [“Image Classification of Melanoma, Nevus and Seborrheic Keratosis by Deep Neural Network Ensemble”](https://arxiv.org/ftp/arxiv/papers/1703/1703.03108.pdf). International Skin Imaging Collaboration (ISIC) 2017 Challenge at the International Symposium on Biomedical Imaging (ISBI). 
