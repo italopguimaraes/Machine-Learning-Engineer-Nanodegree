@@ -34,7 +34,7 @@ To install software dependencies:
 
 ```
 git clone https://github.com/Italo-Pereira-Guimaraes/Deep-Learning-Nanodegree.git
-cd Project 5 - Teaching a Flying Quaricopter
+cd Project 3 - Teaching a Flying Quaricopter
 ```
 
 2. Create and activate a new environment.
