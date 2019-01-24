@@ -30,7 +30,7 @@ For more information see:
 
 ## Getting Started
 
-1. Download and unzip the data, clone the [repository](https://github.com/Italo-Pereira-Guimaraes/Machine-Learning-Engineer-Nanodegree) and enter the `Project 4 - I.A Dermatologist/` directory.   
+1. Download and unzip the data, clone the [repository](https://github.com/Italo-Pereira-Guimaraes/Machine-Learning-Engineer-Nanodegree) and enter the `Project 4 - I.A. Dermatologist/` directory.   
 ```text
 git clone https://github.com/Italo-Pereira-Guimaraes/Machine-Learning-Engineer-Nanodegree
 cd Project 4 - I.A. Dermatologist
