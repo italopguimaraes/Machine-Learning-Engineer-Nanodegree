@@ -5,7 +5,7 @@
 
 In this project, supervised learning techniques were applied to the data collected by the United States census to help CharityML (a fictitious charity) identify those most likely to donate to their cause. First, an exploration is done to know how the census data is recorded. Then a series of transformations and preprocessing techniques are applied to manipulate the data and organize them into a format with which it is possible to work. Then, several models of supervised learning about the data are evaluated to determine which is best suited for the solution. After that, you'll optimize the template you previously selected that will be presented as a solution to CharityML. Finally, the chosen model and its predictions are explored underneath the cloths to evaluate its performance considering the available data.
 
-This project is part of Udacity's machine learning nanodegree program, If you are interested in seeing the project proposal, look in the 'projects / finding_donors' directory in this [repository](https://github.com/udacity/br-machine-learning.git).
+This project is part of Udacity's machine learning nanodegree program, If you are interested in seeing the project proposal, look in the `projects/finding_donors` directory in this [repository](https://github.com/udacity/br-machine-learning.git).
 
 For more details see [project description](project_description.md)
 
