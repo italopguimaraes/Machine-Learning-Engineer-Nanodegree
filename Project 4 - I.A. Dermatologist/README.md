@@ -124,6 +124,10 @@ The code for generating the confusion matrix assumes that the threshold for clas
 ```text
 python get_results.py sample_predictions.csv 0.4
 ```
+## Evaluation
+
+The project was evaluated according to the following [rubric](https://review.udacity.com/#!/rubrics/1654/view)
+
 ## license
  
 For more information see:
