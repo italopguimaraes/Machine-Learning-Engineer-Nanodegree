@@ -44,7 +44,7 @@ cd Project 4 - I.A. Dermatologist
 
 5. Download and unzip the [Saved Models](https://drive.google.com/file/d/1HRbB2UG_PO5hgorIpL8X2Wo4OEdiK1xO/view?usp=sharing) (230 MB).
 
-6. Place the previously unpacked folders in the `Project 4 - I.A. Dermatologist / ` directory.
+6. Place the previously unpacked folders in the `Project 4 - I.A Dermatologist/` directory.
 
 7. Run the `IA_dermatologist.ipynb` notebook and follow all steps.
 
