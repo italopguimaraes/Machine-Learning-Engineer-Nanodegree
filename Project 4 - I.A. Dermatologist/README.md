@@ -101,7 +101,7 @@ FBeta Score: 85.9063%
 
 Curve ROC: 
 
-![ROC_Curve][image5]
+![ROC_Curve](images/ROC_Curve.png)
 
 Category 1 Score: 0.808
 
@@ -111,7 +111,7 @@ Category 3 Score: 0.876
 
 Matrix of Confusion: 
 
-![Confusion_Matrix][image6]
+![Confusion_Matrix](images/Confusion_Matrix.png)
 
 ## Getting your Results
 
@@ -143,9 +143,9 @@ Category 3 Score: 0.566
 
 The corresponding **ROC curves** appear in a pop-up window, along with the **confusion matrix** corresponding to melanoma classification.  
 
-![Sample_ROC_curve][image7]
+![Sample_ROC_curve][image5]
 
-![Sample_confusion_matrix][image8]
+![Sample_confusion_matrix][image6]
 
 The code for generating the confusion matrix assumes that the threshold for classifying melanoma is set to 0.5.  To change this threshold, you need only supply an additional command-line argument when calling the `get_results.py` file.  For instance, to set the threshold at 0.4, you need only run:
 ```text
