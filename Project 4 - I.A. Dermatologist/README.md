@@ -87,6 +87,25 @@ The top scores in this category (from the ISIC competition) can be found in the 
 
 ![Category 3 Rankings][image4]
 
+## Results
+
+Below are the results from the test suite, including the evaluation metrics used in this project:
+
+Accuracy: 86.0236%
+
+Precision: 85.2121%
+
+Recall: 86.0236%
+
+FBeta Score: 85.9063%
+
+Curve ROC:! [ROC Curve][ROC Curve]
+Category 1 Score: 0.808
+Category 2 Score: 0.945
+Category 3 Score: 0.876
+
+Matrix of Confusion:! [Confusion Matrix][Confusion Matrix]
+
 ## Getting your Results
 
 The [**sample_predictions**](sample_predictions.csv) file stores the test predictions, each row corresponds to a different test image, in addition to a header row.
