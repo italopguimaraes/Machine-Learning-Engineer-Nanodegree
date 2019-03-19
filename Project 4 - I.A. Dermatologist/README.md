@@ -99,12 +99,19 @@ Recall: 86.0236%
 
 FBeta Score: 85.9063%
 
-Curve ROC:! [ROC Curve][image5]
+Curve ROC: 
+
+![ROC_Curve][image5]
+
 Category 1 Score: 0.808
+
 Category 2 Score: 0.945
+
 Category 3 Score: 0.876
 
-Matrix of Confusion:! [Confusion Matrix][image6]
+Matrix of Confusion: 
+
+![Confusion_Matrix][image6]
 
 ## Getting your Results
 
